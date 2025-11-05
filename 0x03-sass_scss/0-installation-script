@@ -1,0 +1,13 @@
+SASS Installation Steps (macOS)
+
+1. Verified Node.js and npm were installed
+   $ node -v 
+   my current version is 25, so nvm install 20 which i successfully installed but had a little prefix not being compatible, which i resolved by nvm use --delete-prefix v20.19.5 and that's all for node installation.
+
+2. Installed SASS globally using npm
+   $ npm install -g sass
+
+3. Verified the installation
+   $ sass --version
+
+4. SASS is now ready to compile .scss files into .css
